@@ -23,4 +23,35 @@
       margin: 0;
     }
   }
+  .callToActions {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    -webkit-transform: translateY(-50%);
+    -mob-transform: transformY(-50%);
+    transform: translateY(-50%);
+
+    ul,
+    li {
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      list-style-type: none;
+      display: inline-block;
+      margin-left: 1.5rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      a {
+        font-size: 1.8rem;
+        line-height: 1;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
+  }
 }
